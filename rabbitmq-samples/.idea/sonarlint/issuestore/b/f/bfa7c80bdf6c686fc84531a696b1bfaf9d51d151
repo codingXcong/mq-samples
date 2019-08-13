@@ -1,0 +1,11 @@
+
+]squid:UselessImportCheck"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ8ÕÆşÄ-
+V
+squid:S106$"9Replace this use of System.out or System.err by a logger.(—·©é8ĞæÈœÄ-
+nsquid:CommentedOutCodeLine-"<This block of commented-out lines of code should be removed.(øÇ‡¦úÿÿÿÿ8­¨„Ä-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Õ¿È¾8Ö°ªÄ-
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ôçâœÄ-
+vsquid:ModifiersOrderCheck
+"EReorder the modifiers to comply with the Java Language Specification.(à£ƒ°ÿÿÿÿÿ8°Â—Ä-
+ksquid:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(‹«ÖÖøÿÿÿÿ8ĞæÈœÄ-
+hsquid:S2095"EUse try-with-resources or close this "Channel" in a "finally" clause.(‡î‰´ûÿÿÿÿ8ĞæÈœÄ-

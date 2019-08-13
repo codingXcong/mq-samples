@@ -1,0 +1,8 @@
+
+jsquid:ModifiersOrderCheck
+"EReorder the modifiers to comply with the Java Language Specification.(ÜñµÌ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ã€®èøÿÿÿÿ
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(þ‹†îýÿÿÿÿ8ÅËåÇ-
+dsquid:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(‹«ÖÖøÿÿÿÿ
+asquid:S2095"EUse try-with-resources or close this "Channel" in a "finally" clause.(‡î‰´ûÿÿÿÿ
