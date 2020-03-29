@@ -18,12 +18,12 @@ public class Recv {
         }
     }
 
-    private static void consumer(String flag) throws IOException, TimeoutException {
+    private static void consumer(final String flag) throws IOException, TimeoutException {
         ConnectionFactory connectionFactory = new ConnectionFactory();
         connectionFactory.setHost("127.0.0.1");
         Connection connection = connectionFactory.newConnection();
 
-        Channel channel = connection.createChannel();
+        final Channel channel = connection.createChannel();
         channel.exchangeDeclare(QUEUE_NAME,"fanout");
         channel.queueDeclare(QUEUE_NAME, false, false, false, null);
         channel.queueBind(QUEUE_NAME,QUEUE_NAME,"");
